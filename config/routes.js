@@ -49,6 +49,12 @@ export default [
     component: './TableList',
   },
   {
+    name: 'form',
+    icon: 'form',
+    path: '/form',
+    component: './FileForm',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
